@@ -1,0 +1,8 @@
+ERROR for database 
+https://stackoverflow.com/questions/62398686/php-call-to-private-method-kreait-firebase-serviceaccountfromjsonfile-error
+use this code : 
+    $factory = (new Factory)->withServiceAccount(__DIR__.'/google-service-account.json');
+    $database = $factory->createDatabase();
+
+
+    https://www.cloudways.com/blog/firebase-realtime-database-laravel/
